@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\C# Fundamentals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{288CA0C7-EB3F-4C6C-A6D0-ABDB874DA414}|Section 5 Exercises\\Section5Exercises.csproj|c:\\users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\c# fundamentals\\section 5 exercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CA0C7-EB3F-4C6C-A6D0-ABDB874DA414}|Section 5 Exercises\\Section5Exercises.csproj|solutionrelative:section 5 exercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CA0C7-EB3F-4C6C-A6D0-ABDB874DA414}|Section 5 Exercises\\Section5Exercises.csproj|c:\\users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\c# fundamentals\\section 5 exercises\\validatenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CA0C7-EB3F-4C6C-A6D0-ABDB874DA414}|Section 5 Exercises\\Section5Exercises.csproj|solutionrelative:section 5 exercises\\validatenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidateNumber.cs",
+              "DocumentMoniker": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\C# Fundamentals\\Section 5 Exercises\\ValidateNumber.cs",
+              "RelativeDocumentMoniker": "Section 5 Exercises\\ValidateNumber.cs",
+              "ToolTip": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\C# Fundamentals\\Section 5 Exercises\\ValidateNumber.cs",
+              "RelativeToolTip": "Section 5 Exercises\\ValidateNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T01:19:43.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\C# Fundamentals\\Section 5 Exercises\\Program.cs",
+              "RelativeDocumentMoniker": "Section 5 Exercises\\Program.cs",
+              "ToolTip": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\C# Fundamentals\\Section 5 Exercises\\Program.cs",
+              "RelativeToolTip": "Section 5 Exercises\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T01:13:24.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
