@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 
 namespace Section5Exercises
 {
@@ -6,17 +7,13 @@ namespace Section5Exercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please, enter an integer number: ");
-            var input = Console.ReadLine();
-            var num1 = int.Parse(input);
-
-            validateNumber(num1);
-
-            Console.WriteLine("Please, enter another integer number: ");
-            var input2 = Console.ReadLine();
-            var num2 = int.Parse(input2);
-                        
-            higher(num1, num2);
+            //ValidateNumber();
+            //IsHigher();
+            //IsLandscapeOrPortrait();
+            SpeedCamera();
+            SpeedCamera();
+            SpeedCamera();
+            SpeedCamera();
 
         }
 
@@ -27,8 +24,12 @@ namespace Section5Exercises
          *      display "Valid" on the console. 
          *      Otherwise, display "Invalid".
          */
-        static void validateNumber(int number)
+        static void ValidateNumber()
         {
+
+            Console.WriteLine("Please, enter an integer number: ");
+            var number = int.Parse(Console.ReadLine());
+
             if (number >= 1 && number <= 10)
             {
                 Console.WriteLine($"{number} is a valid number.");
@@ -44,14 +45,70 @@ namespace Section5Exercises
          *      from the console and displays the maximum of the two.
          */
 
-        static void higher(int num1, int num2)
+        static void IsHigher()
         {
+
+            Console.WriteLine("Please, enter an integer number: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please, enter another integer number: ");
+            var num2 = int.Parse(Console.ReadLine());
+
             int higher = num1 > num2 ? num1 : num2;
             Console.WriteLine($"{higher} is the higher number.");
         }
 
 
-    }
+        /*
+         * 3- Write a program and ask the user to enter the width and height of an image.
+         *  Then tell if the image is landscape or portrait.
+         */
 
-    
+        static void IsLandscapeOrPortrait()
+        {
+            Console.WriteLine("Enter the width and height of your image: ");
+            double width = Double.Parse(Console.ReadLine());
+            double heigth = Double.Parse(Console.ReadLine());
+
+            String imageOrientation = heigth < width ? imageOrientation = "landscape" : imageOrientation = "portrait";
+            Console.WriteLine($"Your image is {imageOrientation}.");
+        }
+
+        /*
+         * 4- Your job is to write a program for a speed camera. For simplicity, 
+         * ignore the details such as camera, sensors, etc and focus purely on the logic. 
+         * 
+         * 1- Write a program that asks the user to enter the speed limit. 
+         * 2- Once set, the program asks for the speed of a car. 
+         *  a. If the user enters a value less than the speed limit, program should display Ok on the console. 
+         *  b. If the value is above the speed limit, the program should calculate the number of demerit points. 
+         *      I. For every 5km/hr above the speed limit, 1 demerit points should be incurred and displayed on the console. 
+         *      II. If the number of demerit points is above 12, the program should display License Suspended.
+         */
+
+        static void SpeedCamera()
+        {
+            Console.WriteLine("Enter the Speed Limit: ");
+            Double speedLimit = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the speed of the car: ");
+            Double carSpeed = Double.Parse(Console.ReadLine());
+
+            if (carSpeed < speedLimit)
+            {
+                Console.WriteLine("Ok");
+            }
+            else if (carSpeed > speedLimit)
+            {
+                int demeritPoints = 0;
+                for (demeritPoints = 0; carSpeed >= speedLimit + 5; demeritPoints++)
+                {
+                    carSpeed = carSpeed - 5;
+                }
+
+                if (demeritPoints <= 12) Console.WriteLine(demeritPoints); else Console.WriteLine("License Suspended");
+
+            }
+        }
+    }
 }
