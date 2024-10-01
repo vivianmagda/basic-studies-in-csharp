@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Baseline;
+using System;
 using System.ComponentModel.Design;
 
 namespace Section5Exercises
@@ -7,13 +8,8 @@ namespace Section5Exercises
     {
         static void Main(string[] args)
         {
-            //ValidateNumber();
-            //IsHigher();
-            //IsLandscapeOrPortrait();
-            SpeedCamera();
-            SpeedCamera();
-            SpeedCamera();
-            SpeedCamera();
+
+            SumOfAllEnteredNumbers();
 
         }
 
@@ -110,5 +106,43 @@ namespace Section5Exercises
 
             }
         }
+
+
+        /*1- Write a program to count how many numbers between 1 and 100 are divisible by 3 with no remainder. 
+         * Display the count on the console.
+         */
+
+        static void HowManyDivisibleByThree()
+        {
+            var count = 0;
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0) count++;
+            }
+
+            Console.WriteLine(count);
+        }
+
+        /*
+         * 2- Write a program and continuously ask the user to enter a number or "ok" to exit. 
+         * Calculate the sum of all the previously entered numbers and display it on the console.
+         */
+
+        static void SumOfAllEnteredNumbers()
+        {
+            var i = 0;
+            var sum = 0;
+
+            do
+            {
+                Console.WriteLine("Enter a number: ");
+                i++;
+                sum += Int32.Parse(Console.ReadLine());
+                                                
+            } while(Console.ReadLine().ToLower() != "ok");
+
+            Console.WriteLine(sum);
+        }
+
     }
 }

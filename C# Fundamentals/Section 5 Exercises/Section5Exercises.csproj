@@ -12,4 +12,9 @@
     <Compile Remove="ValidateNumber.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Baseline" Version="4.1.0" />
+    <PackageReference Include="DryIoc.dll" Version="5.4.3" />
+  </ItemGroup>
+
 </Project>
