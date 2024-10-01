@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Section5Exercises</id>
+    <version>1.0.0</version>
+    <authors>Section5Exercises</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="f83a279ed3eb9b9ab291a40dfdb4025903a58f4c" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\vivianmagda\source\repos\basic-studies-in-csharp\C# Fundamentals\Section 5 Exercises\bin\Debug\net8.0\Section5Exercises.runtimeconfig.json" target="lib\net8.0\Section5Exercises.runtimeconfig.json" />
+    <file src="C:\Users\vivianmagda\source\repos\basic-studies-in-csharp\C# Fundamentals\Section 5 Exercises\bin\Debug\net8.0\Section5Exercises.dll" target="lib\net8.0\Section5Exercises.dll" />
+  </files>
+</package>
