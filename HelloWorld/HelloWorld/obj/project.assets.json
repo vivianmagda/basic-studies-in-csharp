@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vivianmagda\\C# Projects\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\vivianmagda\\C# Projects\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\vivianmagda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vivianmagda\\C# Projects\\HelloWorld\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\vivianmagda\\source\\repos\\basic-studies-in-csharp\\HelloWorld\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
