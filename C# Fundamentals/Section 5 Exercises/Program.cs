@@ -9,7 +9,7 @@ namespace Section5Exercises
         static void Main(string[] args)
         {
 
-            SumOfAllEnteredNumbers();
+            CalculateFactorial();
 
         }
 
@@ -130,19 +130,66 @@ namespace Section5Exercises
 
         static void SumOfAllEnteredNumbers()
         {
-            var i = 0;
-            var sum = 0;
+            String input;
+            int sum = 0;
 
-            do
+            while (true)
             {
-                Console.WriteLine("Enter a number: ");
-                i++;
-                sum += Int32.Parse(Console.ReadLine());
-                                                
-            } while(Console.ReadLine().ToLower() != "ok");
+                Console.WriteLine("Enter a number to calculate, or \"ok\" to exit. ");
+                input = Console.ReadLine();
+
+                if(input.ToLower() == "ok")
+                {
+                    break;
+                }
+
+                sum += Int32.Parse(input);
+                continue;
+            } 
 
             Console.WriteLine(sum);
         }
+
+        /*
+         * 3- Write a program and ask the user to enter a number. 
+         * Compute the factorial of the number and print it on the console. 
+         * For example, if the user enters 5, the program should calculate 
+         * 5 x 4 x 3 x 2 x 1 and display it as 5! = 120. 
+         * 
+         */
+
+        static void CalculateFactorial()
+        {
+
+            while (true)
+            {
+                Console.WriteLine("Enter a integer number to calculate, or 0 to exit. ");
+                var input = Int32.Parse(Console.ReadLine());
+                var factorial = 1;
+
+                if (input == 0) break;
+
+                for (int i = 1; i <= input; i++)
+                {
+                    factorial = factorial * i;
+                }
+
+
+                Console.WriteLine($"{input}! = {factorial}");
+
+            }
+
+        }
+
+
+        /* 
+         * 4- Write a program that picks a random number between 1 and 10. 
+         * Give the user 4 chances to guess the number. 
+         * If the user guesses the number, display “You won"; otherwise, display “You lost". 
+         * (To make sure the program is behaving correctly, you can display the secret number on the console first.)
+         */
+
+
 
     }
 }
